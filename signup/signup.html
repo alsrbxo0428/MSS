@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width", inintial-scale="1", shrink-to-fit="no">
+		<title>MSS에 오신 것을 환영합니다.</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../img/icon.png">
+		<!--부트스트랩 css-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	</head>
+	<body>
+<!------------------------------------------header------------------------------------------>
+		<header>
+			<!--내비게이션바-->
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+				<a href="../main.php" class="navbar-brand">MSS</a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarMenu">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="../login/login.html" class="nav-link">로그인</a>
+						</li>
+						<li class="nav-item">
+							<a href="signup.html" class="nav-link">회원가입</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!--로고 이미지-->
+			<div style="background-color: gray; text-align: center"><a href="../main.php">
+				<img src="../img/mainbanner.png" width="1350" height="200" alt="MSS"></a></div>
+		</header>
+<!------------------------------------------header end------------------------------------------>
+<!------------------------------------------content------------------------------------------>
+		<content>
+			<form action="signup.php" method="post" style="width: 300px; margin: auto">
+				<div class="container" style="margin-top: 10px">
+					<div class="alert alert-secondary">
+						<p style="text-align: center"><strong>회원가입</strong></p>
+						<hr class="mb-3">
+						<div class="form-group">
+							<label for="name">이름</label>
+							<input type="name" name="name" id="name" class="form-control" style="margin-bottom: 10px" placeholder="NAME" required>
+						</div>
+						<div class="form-group">
+							<label for="id">아이디</label>
+							<input type="text" name="id" id="id" class="form-control" style="margin-bottom: 10px" placeholder="ID" required>
+						</div>
+						<div class="form-group">
+							<label for="password">비밀번호</label>
+							<input type="password" name="password" id="password" class="form-control" style="margin-bottom: 10px" placeholder="PASSWORD" required>
+						</div>
+						<div style="text-align: right">
+							<button type="submit" class="btn btn-primary" name="signup">회원가입</button>
+						</div>
+						<hr class="mb-3">
+						<h6>이미 회원가입을 하셨나요?<br> <a href="../login/login.html">로그인</a></h6>
+					</div>
+				</div>
+			</form>
+		</content>
+<!------------------------------------------content end------------------------------------------>
+<!------------------------------------------footer------------------------------------------>
+		<footer style="font-size: 15px; text-align: center">
+			<div style="background-color: gray;">
+				<div class="container my-container">
+					<div class="row my-row">
+						<div class="col-md-4 col-sm-6 my-col" style="margin-top: 10px; margin-bottom: 10px">
+							<br>
+							<h3>인천폴리텍 정보통신과</h3>
+							<h4>2학년B반 웹쇼핑몰팀</h4>
+						</div>
+						<div class="col-md-4 col-sm-6 my-col" style="margin-top: 10px; margin-bottom: 10px">
+							<strong>프로젝트 팀원</strong>
+							<li>1702100971 민규태</li>
+							<br>
+							<strong>도움주신 분들</strong>
+							<li>상품 이미지 - 서연범</li>
+							<li>웹 디자인 조언 - 신재혁</li>
+						</div>
+						<div class="col-md-4 col-sm-6 my-col" style="margin-top: 10px; margin-bottom: 10px">
+							<strong>프로젝트에 사용</strong>
+							<li>코드에디터 - Sublime Text3</li>
+							<li>css, js - Bootstrap, bxSlider</li>
+							<li>로고 및 배너 제작 - 미리캔버스</li>
+							<li>웹 호스팅 - 닷홈</li>
+							<li>FTP설정 - Filezilla</li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+<!------------------------------------------footer end------------------------------------------>
+		<h3 style="text-align: center; margin-top: 5px">한국폴리텍2대학 인천캠퍼스<br>2학년B반 웹 쇼핑몰 프로젝트</h3>
+		<!--부트스트랩 js-->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	</body>
+</html>
