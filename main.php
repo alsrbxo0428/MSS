@@ -91,7 +91,7 @@
 								<a href="mugcup/mugcup.php"><img src="mugcup/img/mugmain.png" width="260" height="260" alt="mugcup"></a>
 							</div>
 							<div style="margin: auto">
-								<a href="mugcup/mugcup.php">백자 무지 머그컵</a>
+								<a href="mugcup/mugcup.php" style="color: black">백자 무지 머그컵</a>
 								<br><s style="color: #FF9090">5,000원</s>
 								<h4>4,500원</h4>
 							</div>
@@ -101,7 +101,7 @@
 								<a href="case/case.php"><img src="case/img/casemain.png" width="260" height="260" alt="case"></a>
 							</div>
 							<div style="margin: auto">
-								<a href="case/case.php">명함 카드 케이스</a>
+								<a href="case/case.php" style="color: black">명함 카드 케이스</a>
 								<br><s style="color: #FF9090">5,000원</s>
 								<h4>4,500원</h4>
 							</div>
@@ -111,7 +111,7 @@
 								<a href="frame/frame.php"><img src="frame/img/framemain.png" width="260" height="260" alt="frame"></a>
 							</div>
 							<div style="margin: auto">
-								<a href="frame/frame.php">액자</a>
+								<a href="frame/frame.php" style="color: black">액자</a>
 								<br><s style="color: #FF9090">5,000원</s>
 								<h4>4,500원</h4>
 							</div>
@@ -127,7 +127,7 @@
 					<div class="row my-row">
 						<div class="col-md-4 col-sm-6 my-col" style="margin-top: 10px; margin-bottom: 10px">
 							<br>
-							<h3>인천폴리텍 정보통신과</h3>
+							<h3><a href="https://www.kopo.ac.kr/incheon/content.do?menu=7235" style="color: black">인천폴리텍 정보통신과</a></h3>
 							<h4>2학년B반 웹쇼핑몰팀</h4>
 						</div>
 						<div class="col-md-4 col-sm-6 my-col" style="margin-top: 10px; margin-bottom: 10px">
@@ -140,11 +140,11 @@
 						</div>
 						<div class="col-md-4 col-sm-6 my-col" style="margin-top: 10px; margin-bottom: 10px">
 							<strong>프로젝트에 사용</strong>
-							<li>코드에디터 - Sublime Text3</li>
-							<li>css, js - Bootstrap, bxSlider</li>
-							<li>로고 및 배너 제작 - 미리캔버스</li>
-							<li>웹 호스팅 - 닷홈</li>
-							<li>FTP설정 - Filezilla</li>
+							<li>코드에디터 - <a href="https://www.sublimetext.com/" style="color: black">Sublime Text3</a></li>
+							<li>css, js - <a href="https://getbootstrap.com/" style="color: black">Bootstrap</a>, <a href="https://bxslider.com/" style="color: black">bxSlider</a></li>
+							<li>로고 및 배너 제작 - <a href="https://www.miricanvas.com/" style="color: black">미리캔버스</a></li>
+							<li>웹 호스팅 - <a href="https://www.dothome.co.kr/index.php" style="color: black">닷홈</a></li>
+							<li>FTP설정 - <a href="https://filezilla-project.org/" style="color: black">Filezilla</a></li>
 						</div>
 					</div>
 				</div>
