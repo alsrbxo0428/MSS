@@ -133,7 +133,7 @@
 						<div class="col-md-4 col-sm-6 my-col" style="margin-top: 10px; margin-bottom: 10px">
 							<strong>프로젝트 팀원</strong>
 							<li>1702100971 민규태</li>
-							<br>
+							<li><a href="https://github.com/alsrbxo0428/MSS" style="color: black">프로젝트 소스파일</a></li>
 							<strong>도움주신 분들</strong>
 							<li>상품 이미지 - 서연범</li>
 							<li>웹 디자인 조언 - 신재혁</li>
